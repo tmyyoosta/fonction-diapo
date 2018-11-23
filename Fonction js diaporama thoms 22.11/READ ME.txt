@@ -1,0 +1,1 @@
+Fonction diaporama en javascript qui permet de faire "défiler" les images du dossier images. Elle est implémentée dans une page web basique sans CSS. Focntion à inclure dans le prototype final.

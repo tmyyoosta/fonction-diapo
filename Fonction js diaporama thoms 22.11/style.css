@@ -1,0 +1,16 @@
+<script>
+	i=0
+	function diaporama() {
+     var tabImages = new Array("./image/image00.jpg","./image/image01.jpg","./image/image02.jpg");
+     document.getElementById("fond").style.backgroundImage = 'url('+ tabImages[i] +')';
+	 i++;
+	 if(i==2) {
+		i=i-2;
+		setTimeout(diaporama,6000); }
+	else {
+		setTimeout(diaporama,6000); //5000 pour changer d'images toutes les 5 secondes. 
+		}
+	}
+	
+	
+</script>
